@@ -1,0 +1,149 @@
+body{
+    background-repeat: none;
+}
+/* 배경색 */
+.first-paragraph{
+    background-color: #182338;
+}
+#secondback{
+    background-color: #3b0a0a;
+}
+#thirdback{
+    background-color: #231f20;
+}
+/* 옆에 버튼 */
+.fornav a{
+    color: grey;
+}
+.fornav a:hover{
+    color: #b69157;
+}
+.fornav{
+    position: relative;
+    left:20px;
+    display: block;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* 작은 화면전용 버튼 */
+.fornavsmall{
+    display: none;
+}
+.fornavsmall nav{
+    display:flex;
+    width: 100vw;
+}
+#smallbut{
+    width: 33.3333vw;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    border: 2px solid grey;
+    color: grey;
+}
+
+/* 메인페이지 */
+.first-paragraph{
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    /* text-align: center; */
+}
+
+/* 왼쪽 글들 */
+.first_all{
+    /* padding: 0px 300px 0px 0px; */
+    position:relative;
+    transform: translate(-50%,-5%);
+    font-size: 36px;
+}
+.first__writing{
+    font-size: 60%;
+    color: #b69157;
+}
+.first__writing__title{
+    font-weight: bold;
+    color: #DBDBDB;
+}
+.video{
+    width: 800px;
+    height: 400px;
+    background-color:grey ;
+    display: inline-block;
+}
+#button_for_next{
+    padding: 0px 30px;
+    background-color:#b69157 ;
+    border-radius: 15px;
+    border: 3px solid #b69157;
+    color: #f4eae2;
+    text-align: center;
+    font-size: 50%;
+}
+
+/* 반응형 웹을 위한 css */
+@media screen and (max-width: 1600px){
+    .fornav{
+        display: none;
+    }
+}
+.forbackground{
+    background: linear-gradient(to right bottom, #0a043c,#03506f);
+}
+@media screen and (max-width: 1285px){
+    .fornavsmall{
+        display: block;
+    }
+    .first-paragraph {
+        flex-direction: column;
+    }
+    .first-text{
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .first-picture{
+       width: 100vw;
+       height: 380px;
+       float: right;
+    }
+    .plus{
+        height: 50px;
+        font-size: 15px;
+    }
+    .line{
+        width: 150px;
+    }
+    img{
+        width: 40%;
+        min-width: 300px;
+    }
+}
+@media screen and (max-width: 562px){
+    .first-paragraph {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .first-text{
+        margin-top: 50px;
+        font-size: 28px;
+    }
+    .first-picture{
+       width: 100vw;
+    }
+    .plus{
+        height: 40px;
+        font-size: 9px;
+    }
+    .line{
+        width:130px;
+    }
+}
+@media screen and (max-width: 434px){
+    .plus{
+        display:none;
+    }
+}
