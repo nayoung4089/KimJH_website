@@ -74,7 +74,40 @@ html{
     background-color:grey ;
     display: inline-block;
 }
-#button_for_next{
+.two__button{
+    display: flex;
+    color:#b69157;
+    width: 800px;
+    height: 400px;
+}
+.click{
+    border: 3px solid #b69157;
+    font-size: 40px;
+    display: block;
+    width: 350px;
+    height: 350px;
+    color:#b69157;
+    font-weight: bold;
+    background-color: #3b0a0a;
+}
+.click:hover{
+    background-color: #b69157;
+    color:#DBDBDB;   
+}
+.on__click{
+    display: none;
+}
+.click__title{
+    font-weight: bold;
+    font-size: 70%;
+    color:#b69157;   
+}
+.click__sub{
+    font-weight: 300;
+    font-size: 52%; 
+    color:#DBDBDB;  
+}
+#back{
     padding: 0px 30px;
     background-color:#b69157 ;
     border-radius: 15px;
@@ -83,6 +116,40 @@ html{
     text-align: center;
     font-size: 50%;
 }
+
+/* 마지막 부분 */
+/* .thirdall{
+    font-size: 25px;
+} */
+.buttons{
+    display:flex;
+}
+#buttontop{
+    border: 1px solid #b69157;
+    width:150px;
+    color:#b69157;
+    font-size: 55%;
+    background-color: #231f20;  
+}
+#buttontop:hover{
+    background-color: #b69157;
+    color:#DBDBDB; 
+}
+#thirdparagraph{
+    display: none;
+    width:800px;
+    height:300px;
+    margin-top: 50px;
+}
+.wwriting{
+    display:flex;
+    color:#b69157;
+}
+.writing{
+    padding: 0 0 0 30px;
+    /* line-height: 180%; */
+}
+
 
 /* 반응형 웹을 위한 css */
 @media screen and (max-width: 1600px){
