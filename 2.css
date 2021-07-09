@@ -68,10 +68,9 @@ html{
     font-weight: bold;
     color: #DBDBDB;
 }
-.video{
+.first__video{
     width: 800px;
-    height: 400px;
-    background-color:grey ;
+    height: 350px;
     display: inline-block;
 }
 .two__button{

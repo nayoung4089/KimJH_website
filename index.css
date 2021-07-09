@@ -2,7 +2,7 @@ body{
     background-color: #231f20 ;
     overflow-x:hidden;
 }
-[name="slide"] {display:none;}
+/* [name="slide"] {display:none;}
 .slidebox {
     max-width: 1920px;
     width: 100%;
@@ -79,9 +79,23 @@ label.right{
     67% {left: 100%;}
     98% {left: 100%;}
     100% {left: 0%;}
-}
+} */
 /* 여기까지가 사진넘기기 */
 
+.video{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50%;
+}
+.video video{
+    min-width:100%;
+    min-height:100%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top:53%;
+    transform: translate(-50%,-50%);
+}
 .first-paragraph{
     text-align: center;
     font-size: 36px;

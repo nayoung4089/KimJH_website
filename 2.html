@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
     <meta name="format-detection" content="telephone=no">
-    <script src="https://kit.fontawesome.com/27c417e7b0.js" crossorigin="anonymous"></script>
     <link href="2.css" rel="stylesheet">
     <link href="bar.css" rel="stylesheet">
     <script src="index.js" defer></script>
     <script src="2.js" defer></script>
-    <!-- 가끔 자바스크립트 링크를 위에 두면 안되는 경우가 있는데 그 이유는
-    결과값을 보고 스크립트를 실행해야 하는데 스크립트가 먼저 시행돼서 결과값을 받지 못할 때다
-    그걸 막아주는게 defer. 즉, 맨 마지막까지 html 훑고 결과값 얻을 수 있게 해줌. 위에 있어도 되니까 개꿀. -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&amp;subset=korean" rel="stylesheet">
 <title>김정호 국어학원</title>
@@ -22,9 +18,8 @@
 <body>
   <nav class="navbar">
       <div class="navbar__logo">
-        <i class="fas fa-cannabis"></i>
-        <a href="index.html">김정호 국어학원
-        </a>
+        <li><img src="김정호국어1.png" id="top"></li>
+        <li><a href="index.html" id="top">김정호 국어학원</a></li>
       </div>
 
       <ul class="navbar__menu">
@@ -35,9 +30,9 @@
       </ul>
 
       <ul class="navbar__icons">
-        <li><i class="fab fa-instagram"></i></li>
-        <li><i class="fab fa-facebook"></i></li>
-        <li><i class="fab fa-facebook"></i></li>
+        <li><a href="https://blog.naver.com/PostList.nhn?blogId=sshkjhshk&from=postList&categoryNo=28#"><img src="블로그로고.png"></a></li>
+        <li><a href="https://map.naver.com/v5/search/%EA%B9%80%EC%A0%95%ED%98%B8%EA%B5%AD%EC%96%B4/place/33253425?c=14124059.1408126,4514138.6500989,13,0,0,0,dh&placePath=%2Fbooking%3FbookingRedirectUrl=https:%2F%2Fm.booking.naver.com%2Fbooking%2F6%2Fbizes%2F450699%3Ftheme=place%26entry=pll%26entry=pll&area=pll"><img src="네이버로고.png"></a></li>
+        <li><img src="카카오톡로고.png"></li>
 
       </ul>
 
@@ -45,7 +40,6 @@
         <i class="fas fa-bars"></i>
       </a>
   </nav>
-  <!-- 여기까지가 상단바 내용 -->
 
   <scroll-container>
     <!-- 수업 맛보기 -->
@@ -79,7 +73,14 @@
               </div>
               <br>
               <!-- 밑에 비디오 들어갈거임!! -->
-              <div class="video">
+              <div class="first__video">
+                <video autoplay muted loop>
+                  <!-- 소리 뮤트까지 이렇게 하는게 좋군! -->
+                <source src="김정호 영상.mp4" type="video/mp4">
+                </video>  
+                <a href="https://m.blog.naver.com/sshkjhshk/221692250532" id="button_for_next">
+                  실제 수업모습이 궁금하다면?
+                </a>
               </div>
               </div>
             </div>
