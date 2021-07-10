@@ -255,13 +255,13 @@ footer{
         font-size:20px;
     }
     .poem{
-        height: 270px;
+        height: 408.67px;
     }
     .poem img{
         width: 270px;
     }
     .cross__first img{
-        width: 130px;
+        width: 100px;
     }   
     #button_for_nnext{
         padding: 0 10px;
@@ -273,16 +273,13 @@ footer{
     /* 약도 */
     .information{
         flex-direction: column;
+        font-size: 18px;
     }
     .information-text{
         width: 300px;
     }
     .information-title{
         margin-top: 10px;
-        font-size: 20px;
-    }
-    .information-subtitle{
-        font-size: 13px;
     }
     /* footer */
     .copyright-text{
