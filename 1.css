@@ -12,6 +12,9 @@ body{
 .teacher_picture{
     margin: 0 100px;
 }
+#teacherpic{
+    width:400px;
+}
 /* #teacherpic{
     border: 5px solid #8c6239;
 } */
@@ -47,6 +50,21 @@ body{
     font-size: 50%;
 }
 
-@media screen {
-    
+@media screen and (max-width: 1217px){
+    .teacher_all{
+        flex-direction: column;
+        font-size: 23px;
+        margin-top: 50px;
+    }
+    .teacher_picture{
+        margin: 0 auto;
+    }
+    #teacherpic{
+        width: 270px;
+    }
+    .teacher_writing{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
     <meta name="format-detection" content="telephone=no">
+    <script src="https://kit.fontawesome.com/27c417e7b0.js" crossorigin="anonymous"></script>
     <link href="2.css" rel="stylesheet">
     <link href="bar.css" rel="stylesheet">
     <script src="index.js" defer></script>
@@ -20,6 +21,9 @@
       <div class="navbar__logo">
         <li><img src="김정호국어1.png" id="top"></li>
         <li><a href="index.html" id="top">김정호 국어학원</a></li>
+        <a href="#" class="navbar__toggleBtn">
+          <i class="fas fa-bars"></i>
+        </a>
       </div>
 
       <ul class="navbar__menu">
@@ -35,10 +39,6 @@
         <li><img src="카카오톡로고.png"></li>
 
       </ul>
-
-      <a href="#" class="navbar__toggleBtn">
-        <i class="fas fa-bars"></i>
-      </a>
   </nav>
 
   <scroll-container>
@@ -77,12 +77,16 @@
                 <video autoplay muted loop>
                   <!-- 소리 뮤트까지 이렇게 하는게 좋군! -->
                 <source src="김정호 영상.mp4" type="video/mp4">
-                </video>  
+                </video> 
+                <br> 
                 <a href="https://m.blog.naver.com/sshkjhshk/221692250532" id="button_for_next">
                   실제 수업모습이 궁금하다면?
                 </a>
               </div>
               </div>
+              <!-- justify-content: space-between으로 인해 여백이 생겼는데 -->
+              <!-- 그거 같은 간격으로 위아래 해주려고 그냥 의미 없는 class 하나 생성. -->
+              <div class="blank__one"></div>
             </div>
     </scroll-page>
 
@@ -166,6 +170,9 @@
             </div>
             </div>
           </div>
+            <!-- justify-content: space-between으로 인해 여백이 생겼는데 -->
+            <!-- 그거 같은 간격으로 위아래 해주려고 그냥 의미 없는 class 하나 생성. -->
+            <div class="blank__one"></div>
           </div>
         
 </scroll-page>
@@ -286,6 +293,10 @@
             아빠, 나 나을 수 있는 거 맞지?
           </a>
         </div>
+        </div>
+          <!-- justify-content: space-between으로 인해 여백이 생겼는데 -->
+          <!-- 그거 같은 간격으로 위아래 해주려고 그냥 의미 없는 class 하나 생성. -->
+          <div class="blank__one"></div>
         </div>
 </scroll-page>
     

@@ -2,7 +2,8 @@ body{
     background-color: #231f20 ;
     overflow-x:hidden;
 }
-/* [name="slide"] {display:none;}
+/* [name="slide"] {display
+    :none;}
 .slidebox {
     max-width: 1920px;
     width: 100%;
@@ -81,29 +82,19 @@ label.right{
     100% {left: 0%;}
 } */
 /* 여기까지가 사진넘기기 */
-
-.video{
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 50%;
-}
 .video video{
-    min-width:100%;
+    width:100vw;
     min-height:100%;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    top:53%;
-    transform: translate(-50%,-50%);
+
 }
 .first-paragraph{
     text-align: center;
     font-size: 36px;
 }
 .first-title{
+    padding: 20px 0;
     font-size: 110%;
     font-weight: bold;
-    margin-top: 50px;
     color: #b69157;
 }
 .first-subtitle{
@@ -136,7 +127,16 @@ label.right{
     color: #b69157;
     font-size: 60%;
 }
-
+#button_for_nnext{
+    padding: 0px 30px;
+    background-color:#f4eae2 ;
+    border-radius: 15px;
+    border: 2px outset #b69157;
+    color: #b69157;
+    text-align: center;
+    font-size: 85%;
+    font-weight:bold;
+}
 .box{
     margin-top: 50px;
     display: flex;
@@ -240,9 +240,7 @@ footer{
     color: rgb(83, 83, 83);
     text-align: center;
 }
-.callnum{
-    margin-top: 100px;
-}
+
 .copyright-text{
     font-size: 15px;
     margin-top: 100px;
@@ -250,30 +248,45 @@ footer{
 }
 
 
-/* 500px로 가로 작아졌을 때-폰용임 */
-@media screen and (max-width: 500px){
-    .first-title{
+/* 1074로 작아졌을 때 */
+@media screen and (max-width: 1074px){
+    /* 맨 처음부터 십자가까지 */
+    .first-paragraph{
+        font-size:20px;
+    }
+    .poem{
+        height: 270px;
+    }
+    .poem img{
+        width: 270px;
+    }
+    .cross__first img{
+        width: 130px;
+    }   
+    #button_for_nnext{
+        padding: 0 10px;
+    } 
+    /* 박스 3개 */
+    .box{
+        flex-direction: column;
+    }
+    /* 약도 */
+    .information{
+        flex-direction: column;
+    }
+    .information-text{
+        width: 300px;
+    }
+    .information-title{
+        margin-top: 10px;
         font-size: 20px;
     }
-    .first-subtitle{
-        font-size: 14px;
+    .information-subtitle{
+        font-size: 13px;
     }
+    /* footer */
+    .copyright-text{
+        margin-top: 50px;
+        font-size: 12px;
     }
-
-/* 1074로 일차 작아졌을 때 */
-@media screen and (max-width: 1074px){
-.information{
-    flex-direction: column;
 }
-.information-text{
-    width: 300px;
-}
-.information-title{
-    margin-top: 10px;
-    font-size: 20px;
-}
-.information-subtitle{
-    font-size: 13px;
-}
-}
-
