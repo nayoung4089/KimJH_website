@@ -35,12 +35,12 @@ html{
     width: 100vw;
 }
 #smallbut{
-    width: 33.3333vw;
+    width: 33.33333vw;
     height: 40px;
     line-height:40px;
     text-align: center;
-    border: 2px solid grey;
-    color: grey;
+    background-color: #b69157 ;
+    color:#DBDBDB;
 }
 
 /* 메인페이지 */
@@ -120,9 +120,6 @@ html{
 }
 
 /* 마지막 부분 */
-/* .thirdall{
-    font-size: 25px;
-} */
 .buttons{
     display:flex;
 }
@@ -152,7 +149,6 @@ html{
     /* line-height: 180%; */
 }
 
-
 /* 반응형 웹을 위한 css */
 @media screen and (max-width: 1511px){
     .first-paragraph{
@@ -171,13 +167,14 @@ html{
     .two__button{
         flex-direction: column;
     }
-
-
-}
 @media screen and (max-width: 976px){
+    /* .first-paragraph{
+        justify-content:initial;
+    } */
     .first_all{
         font-size: 15px;
         padding: 0 20px;
+        display: inline-block;
     }
     .first__video{
         width: auto;
@@ -188,4 +185,37 @@ html{
         width: 270px;
         display: inline-block;
     }
+     /* 두번째 페이지 */
+     .two__button{
+         flex-direction: column;
+         width: 310px;
+         height: 150px;
+     }
+     .click{
+         width: 280px;
+         font-size: 20px;
+     }
+     /* 세번째 페이지 */
+     .buttons{
+         width: 300px;
+     }
+     #thirdparagraph{
+         width: 310px;
+         margin-top: 0;
+     }
+     .wwriting{
+         flex-direction: column;
+         display:initial;
+         /* display: flex 때문에 사진크기가 꽉차게 변해서 그거 없애려고*/
+     }
+     .wwriting img {
+         margin-top: 10px;
+         width: 150px;
+     }
+     .writing{
+         padding: 0;
+     }
+}
+     
+    
 }
