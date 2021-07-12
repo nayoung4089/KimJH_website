@@ -167,7 +167,10 @@ html{
     .two__button{
         flex-direction: column;
     }
+<<<<<<< HEAD
 }   
+=======
+>>>>>>> cafe465cb0347f2775b1cb3e268242d2f90aa11c
 @media screen and (max-width: 976px){
     /* .first-paragraph{
         justify-content:initial;
@@ -218,4 +221,9 @@ html{
      }
 }
      
+<<<<<<< HEAD
     
+=======
+    
+}
+>>>>>>> cafe465cb0347f2775b1cb3e268242d2f90aa11c

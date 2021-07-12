@@ -2,6 +2,89 @@ body{
     background-color: #231f20 ;
     overflow-x:hidden;
 }
+<<<<<<< HEAD
+=======
+/* [name="slide"] {display
+    :none;}
+.slidebox {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.slidebox img{
+    max-width: 100%;
+}
+.slidebox .slidelist{
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
+}
+.slidebox .slideitem{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .35s;
+}
+.slidebox .slideitem label{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+label.left{
+    left: 20px;
+    background-color: aliceblue;
+    background-position: center center;
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-image: url("left.svg");
+}
+label.right{
+    right: 20px;
+    background-color: aliceblue;
+    background-position: center center;
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-image: url("right.svg");
+}
+[id="slide1"]:checked ~.slidelist .slideitem {transform:translateX(0); animation: slide1 30s infinite;}
+[id="slide2"]:checked ~.slidelist .slideitem {transform:translateX(-100%); animation: slide2 30s infinite;}
+[id="slide3"]:checked ~.slidelist .slideitem {transform:translateX(-200%); animation: slide3 30s infinite;}
+
+@keyframes slide1{
+    0% {left: 0%;}
+    17% {left: 0%;}
+    33% {left: -100%;}
+    50% {left: -100%;}
+    67% {left: -200%;}
+    98% {left: -200%;}
+    100% {left: 0%;}
+}
+@keyframes slide2{
+    0% {left: 0%;}
+    17% {left: 0%;}
+    33% {left: -100%;}
+    50% {left: -100%;}
+    67% {left: 100%;}
+    98% {left: 100%;}
+    100% {left: 0%;}
+}
+@keyframes slide3{
+    0% {left: 0%;}
+    17% {left: 0%;}
+    33% {left: 200%;}
+    50% {left: 200%;}
+    67% {left: 100%;}
+    98% {left: 100%;}
+    100% {left: 0%;}
+} */
+/* 여기까지가 사진넘기기 */
+>>>>>>> cafe465cb0347f2775b1cb3e268242d2f90aa11c
 .video video{
     width:100vw;
     min-height:100%;

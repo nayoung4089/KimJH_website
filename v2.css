@@ -20,8 +20,11 @@ body{
     padding: 20px;
 
 }
+<<<<<<< HEAD
 @media screen and (max-width: 666px){
     .hidden__all{
         font-size: 20px;
     }
 }
+=======
+>>>>>>> cafe465cb0347f2775b1cb3e268242d2f90aa11c
